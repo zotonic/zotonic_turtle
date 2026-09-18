@@ -1,0 +1,9 @@
+{application, zotonic_turtle, [
+    {description, "RDF Turtle parsing and generation"},
+    {vsn, "git"},
+    {registered, []},
+    {applications, [kernel, stdlib, zotonic_rdf, zotonic_jsonld]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]}
+]}.
